@@ -153,6 +153,7 @@ header {
 .feature {
     width: 50%;
     color: #fff;
+    margin-left: 40px;
 }
 
 .service-heading {
@@ -168,7 +169,7 @@ header {
     border-radius: 50%;
     color: #000;
     width: 20px;
-    margin:0 20px;
+    margin-right: 15px;
     text-align: center;
 }
 
