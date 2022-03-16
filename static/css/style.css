@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Supermercado One', cursive;
+}
+
+header {
+    background-color: rgb(22, 22, 22);
+}
+
+.head {
+    width: 60%;
+    margin: 0 auto;
+    padding: 30px 0px;
+}
+
+.logo {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.logo a{
+    text-decoration: none;
+    font-family: 'Domine', serif;
+    font-size: 30px;
+    color: #fff;
+}
+
+.under-letter {
+    font-size: 8px;
+    color: #fff;
+    text-align: center;
+}
+
+.nav-bar {
+    margin-top: 20px;
+}
+.nav-bar ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar ul li {
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: white;
+    justify-content: space-around;
+    transition: 0.2s color ease-in,
+                0.2s color ease-in;
+}
+
+.nav-bar ul li a:hover {
+    color: rgb(238, 79, 22);
+}
+
+.nav-bar ul li a:active {
+    color: rgba(156, 124, 112, 0.74);
+}
+
+.content {
+    background-image: url(../image/staffs.jpg);
+    height: 370px;
+    text-align: center;
+}
+
+.financial {
+    color: rgb(134, 75, 75);
+    padding-top: 250px;
+}
+
+.financial p {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: 'Domine', serif;
+}
+
+.about {
+    background-color: rgb(22, 22, 22);
+    color: #fff;
+}
+.container-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 42px;
+    background-color: rgb(22, 22, 22);
+    padding: 30px 20px;
+    border-bottom: 5px solid rgb(54, 53, 53);
+}
+
+.container div {
+    width: 10%;
+    margin-left: 10px;
+}
+
+.resourse-image {
+    width: 50px;
+}
+
+.resourse-heading {
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+.resourse-text {
+    font-size: 10px;
+}
+
+.service {
+    width: 100%;
+    background-color: rgb(22, 22, 22);
+}
+
+.service-container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.person {
+    width: 50%;
+}
+
+.feature {
+    width: 50%;
+}
