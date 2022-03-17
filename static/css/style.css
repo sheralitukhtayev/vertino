@@ -454,22 +454,34 @@ header {
     }
 
     .service-container div {
-        width: 50%;
+        /* width: 50%; */
         margin: 0 auto;
+    }
+
+    .person {
+        align-items: center;
     }
 
     .feature {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
     .icon-text {
         width: 40%;
     }
 
+    .clients-heading {
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
     .client-logo{
         display: flex;
-        width: 70%;
+        align-items: center;
+        margin: 0 auto;
+        /* width: 70%; */
     }
 
     .client-logo p {
@@ -479,5 +491,9 @@ header {
 
     .client-logo p:last-child {
         border-bottom: 0px;
+    }
+
+    .social-icons {
+        padding: 10px;
     }
 }
